@@ -1,4 +1,4 @@
-FROM elasticsearch:2
+FROM elasticsearch:latest
 
 
 # plugins
