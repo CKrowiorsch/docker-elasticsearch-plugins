@@ -1,5 +1,4 @@
 FROM elasticsearch:latest
+MAINTAINER christian.krowiorsch+docker@googlemail.com
 
-
-# plugins
-RUN /usr/share/elasticsearch/bin/plugin install --batch lmenezes/elasticsearch-kopf
+# configs
